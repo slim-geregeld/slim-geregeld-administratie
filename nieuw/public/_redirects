@@ -76,5 +76,9 @@ http://slim-geregeld.nl/*       https://slim-geregeld.nl/:splat   301!
 /nieuws/onderwerp/daft-verlenging    /en/news/        301
 /nieuws/onderwerp/daft-verlenging/   /en/news/        301
 
+# DAFT-planner (26-11 tot 28-11-2026) weggehaald; terug naar de DAFT-pagina.
+/en/daft-planner    /daft/    301
+/en/daft-planner/   /daft/    301
+
 # Geen catch-all naar /index.html: een onbekende URL krijgt dist/404.html met
 # een echte status 404 (Netlify doet dat vanzelf).
